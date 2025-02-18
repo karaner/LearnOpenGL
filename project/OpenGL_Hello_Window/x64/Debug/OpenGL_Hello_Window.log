@@ -1,0 +1,4 @@
+﻿  glad.c
+  OpenGL_GLFW_GLAD.cpp
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  OpenGL_Hello_Window.vcxproj -> E:\Datas\OpenGL\Projects\LearnOpenGL\project\OpenGL_Hello_Window\x64\Debug\OpenGL_Hello_Window.exe
