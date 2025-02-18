@@ -47,6 +47,9 @@ int main()
     // -----------
     while (!glfwWindowShouldClose(window))
     {
+        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);   //设置清空屏幕所用的颜色
+        glClear(GL_COLOR_BUFFER_BIT);           //清除颜色缓冲
+
         // input
         // -----
         processInput(window);
@@ -55,6 +58,7 @@ int main()
         // -------------------------------------------------------------------------------
         glfwSwapBuffers(window);
         glfwPollEvents();
+
     }
 
     // glfw: terminate, clearing all previously allocated GLFW resources.
