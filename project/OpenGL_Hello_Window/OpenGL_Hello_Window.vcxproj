@@ -71,20 +71,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\Datas\Computer\Git\LearnOpenGL\lib\glad\include;D:\Datas\Computer\Git\LearnOpenGL\lib\glfw\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Datas\Computer\Git\LearnOpenGL\lib\glfw\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\..\..\lib\glad\include;$(SolutionDir)\..\..\\lib\glfw\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\..\..\lib\glfw\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>D:\Datas\Computer\Git\LearnOpenGL\lib\glad\include;D:\Datas\Computer\Git\LearnOpenGL\lib\glfw\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Datas\Computer\Git\LearnOpenGL\lib\glfw\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\..\..\lib\glad\include;$(SolutionDir)\..\..\\lib\glfw\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\..\..\lib\glfw\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(SolutionDir)\..\..\lib\glad\include;$(SolutionDir)\..\..\\lib\glfw\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)\..\..\lib\glfw\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>D:\Datas\Computer\Git\LearnOpenGL\lib\glad\include;D:\Datas\Computer\Git\LearnOpenGL\lib\glfw\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Datas\Computer\Git\LearnOpenGL\lib\glfw\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\..\..\lib\glad\include;$(SolutionDir)\..\..\\lib\glfw\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\..\..\lib\glfw\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
